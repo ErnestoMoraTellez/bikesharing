@@ -19,12 +19,12 @@ For the first step we need to modify the data. Specially we change the data type
     citibike_data_df = pd.read_csv("201908-citibike-tripdata.csv")
     citibike_data_df.head()
     
-    ![image](https://user-images.githubusercontent.com/88845919/147390329-32316ccf-8103-46b3-aca6-418c23e59f98.png)
+![image](https://user-images.githubusercontent.com/88845919/147390329-32316ccf-8103-46b3-aca6-418c23e59f98.png)
 
     # 2. Check the datatypes of your columns. 
     citibike_data_df.dtypes
     
-    ![image](https://user-images.githubusercontent.com/88845919/147390340-7f217841-3a8a-468e-84db-e54de61fdce3.png)
+![image](https://user-images.githubusercontent.com/88845919/147390340-7f217841-3a8a-468e-84db-e54de61fdce3.png)
 
     # 3. Convert the 'tripduration' column to datetime datatype.
     citibike_data_df['tripduration'] = pd.to_datetime(citibike_data_df['tripduration'],unit='s')
@@ -32,10 +32,9 @@ For the first step we need to modify the data. Specially we change the data type
     # 4. Check the datatypes of your columns. 
     citibike_data_df.dtypes
     
-    ![image](https://user-images.githubusercontent.com/88845919/147390356-de4ddd15-a7a6-4428-bc01-2f9a9cca4a3b.png)
+![image](https://user-images.githubusercontent.com/88845919/147390356-de4ddd15-a7a6-4428-bc01-2f9a9cca4a3b.png)
     
     # 5. Export the Dataframe as a new CSV file without the index.
-    citibike_data_df.head()
     citibike_data_df.to_csv('citibike.csv',index=False)
     
 Whit the new dataset we used Tableau to create some visualizations and analisys.
