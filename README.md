@@ -5,6 +5,8 @@
 
 We want to perform an analysis for a future bike sharing bussiness similar to the one in NYC. We have some investors and we will look at the data of NYC bussiness to determine how our company should work in our town. 
 
+[link to dashboard] (https://public.tableau.com/app/profile/ernesto.mora.tellez)
+
 ### Purpose
 
 We need to create a presentation for our invertors. We will use Tableau to show some visualizations of our data analysis.
