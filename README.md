@@ -58,3 +58,23 @@ Now looking at the same info but by gender, most of the users are Male.
 Then we can see the usage by gender and usertype on different days of the week. Most of the users are Male as we alredy know, and the higher demand day is on thursday. The new information that we get is that the subscribers are the ones that use more the bikes.
 
 ![User Trips by Gender by Weekday](https://user-images.githubusercontent.com/88845919/147390925-1ed4471c-1291-4535-b6f2-cd489f3a0780.PNG)
+
+Other data that we can get, is the users by age and the relation with the trip duration. We can notice that the youngest users use more time the bike.
+
+![image](https://user-images.githubusercontent.com/88845919/147391654-c26ad4fb-7bc3-4ef3-9f5c-191c70d7e08c.png)
+
+And here we can see the places where the users start the trips and the total number of rides, wich age they have and the share by gender.
+
+![image](https://user-images.githubusercontent.com/88845919/147391669-8d5bef7a-ba71-42a1-8079-4370ac27ca04.png)
+
+### Resume
+
+As summary, we can say that we can use the date from NYC to estimate at first the number of user we can get. Also que time a trip takes to estimate the number on bikes we need to identiy the demand.
+
+We can look for the places that are represented by the starting locations and compare this atractions or places localy to find good places to put the bikes.
+
+We can spect same share per gender and age, so we can plan some maintence time also using the time with less trafic or usage of the bikes.
+
+With this information we can get some amount of revenue. We can look for this information an create a map with the better locations. Probably we can save costs with this analysis.
+
+Also, we can link the usage and the map, to create some rotation of the bikes and maximize the lifetime and the maintenance.
