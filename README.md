@@ -37,6 +37,24 @@ For the first step we need to modify the data. Specially we change the data type
     # 5. Export the Dataframe as a new CSV file without the index.
     citibike_data_df.to_csv('citibike.csv',index=False)
     
-Whit the new dataset we used Tableau to create some visualizations and analisys.
+With the new dataset we used Tableau to create some visualizations and analisys.
 
-The first viz that we create shows the 
+The first viz that we create shows the time that the user use the bike in average. We can see that most of the people use the bikes for 5 minutes. And it's not common to use the bikes for more than an hour. So they use to do short trips.
+
+![image](https://user-images.githubusercontent.com/88845919/147390428-298ad254-2d7b-44ff-9881-246fd09c6e5f.png)
+
+As second Viz, we create the same graph but differenciating by Gender. With this analysis, we can see that most of the users are Male.
+
+![Checkout Times by Gender](https://user-images.githubusercontent.com/88845919/147390568-aa1d55f1-5df5-4b43-b973-87de629ba429.PNG)
+
+Then we looked at the number of trips per hour and day. This tell us that the high demand of users are from monday to friday in different hours, 7AM to 9AM and 5PM to 7PM. With this we can have and spected amount of bikes that we need to consider.
+
+![Trips by Weekday for Each Hour](https://user-images.githubusercontent.com/88845919/147390637-2ad67932-f83f-4e57-bf19-05103475d1a3.PNG)
+
+Now looking at the same info but by gender, most of the users are Male.
+
+![Trips by Gender (Weekday per Hour)](https://user-images.githubusercontent.com/88845919/147390641-3c8e80b7-4367-4311-add8-2979765213a6.PNG)
+
+Then we can see the usage by gender and usertype on different days of the week. Most of the users are Male as we alredy know, and the higher demand day is on thursday. The new information that we get is that the subscribers are the ones that use more the bikes.
+
+![User Trips by Gender by Weekday](https://user-images.githubusercontent.com/88845919/147390925-1ed4471c-1291-4535-b6f2-cd489f3a0780.PNG)
